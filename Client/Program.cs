@@ -37,26 +37,6 @@ namespace Client
         static void Main(string[] args)
         {
 
-           /* 
-
-
-            const string Host = "localhost";
-            const int Port = 16842;
-
-            var channel = new Channel($"{Host}:{Port}", ChannelCredentials.Insecure);
-
-
-            shortenDate(ref date);
-
-            var client = new Generated.ZodiacService.ZodiacServiceClient(channel);
-
-            var response = client.Zodiac(new Generated.ZodiacRequest
-            {
-                Message = date
-            });
-
-            Console.WriteLine("\nReceived response:", response.Response);*/
-
             const string Host = "localhost";
             const int Port = 16842;
 
